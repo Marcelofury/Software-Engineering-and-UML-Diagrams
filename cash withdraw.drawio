@@ -1,0 +1,201 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1" id="ZyRZjQTgMvrlB5hbEfn0">
+    <mxGraphModel dx="815" dy="488" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="kkMwCocYOkYBSrtVBMVf-1" parent="1" style="ellipse;html=1;shape=startState;fillColor=#000000;strokeColor=#ff0000;" value="" vertex="1">
+          <mxGeometry height="30" width="30" x="380" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="kkMwCocYOkYBSrtVBMVf-2" edge="1" parent="1" source="kkMwCocYOkYBSrtVBMVf-1" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="395" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kkMwCocYOkYBSrtVBMVf-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" value="Insert card" vertex="1">
+          <mxGeometry height="40" width="120" x="335" y="290" as="geometry" />
+        </mxCell>
+        <mxCell id="kkMwCocYOkYBSrtVBMVf-4" edge="1" parent="1" source="kkMwCocYOkYBSrtVBMVf-3" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="395" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kkMwCocYOkYBSrtVBMVf-5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" value="Enter PIN" vertex="1">
+          <mxGeometry height="40" width="120" x="335" y="390" as="geometry" />
+        </mxCell>
+        <mxCell id="kkMwCocYOkYBSrtVBMVf-6" edge="1" parent="1" source="kkMwCocYOkYBSrtVBMVf-5" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="395" y="490" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kkMwCocYOkYBSrtVBMVf-7" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" value="Validate PIN" vertex="1">
+          <mxGeometry height="40" width="120" x="340" y="490" as="geometry" />
+        </mxCell>
+        <mxCell id="kkMwCocYOkYBSrtVBMVf-8" edge="1" parent="1" source="kkMwCocYOkYBSrtVBMVf-7" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="400" y="590" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kkMwCocYOkYBSrtVBMVf-9" parent="1" style="rhombus;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" value="PIN Correct" vertex="1">
+          <mxGeometry height="50" width="110" x="345" y="590" as="geometry" />
+        </mxCell>
+        <mxCell id="kkMwCocYOkYBSrtVBMVf-10" edge="1" parent="1" source="kkMwCocYOkYBSrtVBMVf-9" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=light-dark(#FF0000,#FA8D8D);rounded=0;" value="no">
+          <mxGeometry relative="1" x="-0.35" y="5" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="610" y="615" />
+            </Array>
+            <mxPoint x="610" y="660" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kkMwCocYOkYBSrtVBMVf-11" edge="1" parent="1" source="kkMwCocYOkYBSrtVBMVf-9" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=top;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" value="yes">
+          <mxGeometry relative="1" x="-0.2778" y="-25" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="220" y="615" />
+            </Array>
+            <mxPoint x="220" y="670" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kkMwCocYOkYBSrtVBMVf-12" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" value="select withdraw cash" vertex="1">
+          <mxGeometry height="40" width="120" x="160" y="670" as="geometry" />
+        </mxCell>
+        <mxCell id="kkMwCocYOkYBSrtVBMVf-13" edge="1" parent="1" source="kkMwCocYOkYBSrtVBMVf-12" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="220" y="770" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kkMwCocYOkYBSrtVBMVf-14" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" value="Enter Amount" vertex="1">
+          <mxGeometry height="40" width="120" x="160" y="770" as="geometry" />
+        </mxCell>
+        <mxCell id="kkMwCocYOkYBSrtVBMVf-15" edge="1" parent="1" source="kkMwCocYOkYBSrtVBMVf-14" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="220" y="870" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kkMwCocYOkYBSrtVBMVf-16" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" value="check balance" vertex="1">
+          <mxGeometry height="40" width="120" x="150" y="870" as="geometry" />
+        </mxCell>
+        <mxCell id="kkMwCocYOkYBSrtVBMVf-17" edge="1" parent="1" source="kkMwCocYOkYBSrtVBMVf-16" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="210" y="970" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kkMwCocYOkYBSrtVBMVf-18" parent="1" style="rhombus;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" value="sufficient balance ?" vertex="1">
+          <mxGeometry height="80" width="150" x="135" y="970" as="geometry" />
+        </mxCell>
+        <mxCell id="kkMwCocYOkYBSrtVBMVf-19" edge="1" parent="1" source="kkMwCocYOkYBSrtVBMVf-18" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" value="no">
+          <mxGeometry relative="1" x="-0.1163" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="440" y="1010" />
+            </Array>
+            <mxPoint x="440" y="1070" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kkMwCocYOkYBSrtVBMVf-20" edge="1" parent="1" source="kkMwCocYOkYBSrtVBMVf-18" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=top;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" value="yes">
+          <mxGeometry relative="1" x="-0.4737" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="100" y="1070" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kkMwCocYOkYBSrtVBMVf-21" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" value="Dispense cash" vertex="1">
+          <mxGeometry height="40" width="120" x="40" y="1070" as="geometry" />
+        </mxCell>
+        <mxCell id="kkMwCocYOkYBSrtVBMVf-22" edge="1" parent="1" source="kkMwCocYOkYBSrtVBMVf-21" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="100" y="1170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kkMwCocYOkYBSrtVBMVf-25" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" value="update account" vertex="1">
+          <mxGeometry height="40" width="120" x="40" y="1170" as="geometry" />
+        </mxCell>
+        <mxCell id="kkMwCocYOkYBSrtVBMVf-26" edge="1" parent="1" source="kkMwCocYOkYBSrtVBMVf-25" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="100" y="1270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kkMwCocYOkYBSrtVBMVf-27" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" value="print receipt" vertex="1">
+          <mxGeometry height="40" width="120" x="40" y="1270" as="geometry" />
+        </mxCell>
+        <mxCell id="kkMwCocYOkYBSrtVBMVf-28" edge="1" parent="1" source="kkMwCocYOkYBSrtVBMVf-27" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="100" y="1370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kkMwCocYOkYBSrtVBMVf-29" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" value="Eject card" vertex="1">
+          <mxGeometry height="40" width="120" x="40" y="1370" as="geometry" />
+        </mxCell>
+        <mxCell id="kkMwCocYOkYBSrtVBMVf-30" edge="1" parent="1" source="kkMwCocYOkYBSrtVBMVf-29" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="100" y="1510" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kkMwCocYOkYBSrtVBMVf-31" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" value="show insufficient funds" vertex="1">
+          <mxGeometry height="40" width="120" x="380" y="1070" as="geometry" />
+        </mxCell>
+        <mxCell id="kkMwCocYOkYBSrtVBMVf-32" edge="1" parent="1" source="kkMwCocYOkYBSrtVBMVf-31" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="440" y="1170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kkMwCocYOkYBSrtVBMVf-33" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" value="Eject card" vertex="1">
+          <mxGeometry height="40" width="120" x="380" y="1170" as="geometry" />
+        </mxCell>
+        <mxCell id="kkMwCocYOkYBSrtVBMVf-34" edge="1" parent="1" source="kkMwCocYOkYBSrtVBMVf-33" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="440" y="1510" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kkMwCocYOkYBSrtVBMVf-35" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" value="show invalid PIN" vertex="1">
+          <mxGeometry height="40" width="120" x="550" y="660" as="geometry" />
+        </mxCell>
+        <mxCell id="kkMwCocYOkYBSrtVBMVf-36" edge="1" parent="1" source="kkMwCocYOkYBSrtVBMVf-35" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="610" y="760" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kkMwCocYOkYBSrtVBMVf-39" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" value="Retry/Eject card" vertex="1">
+          <mxGeometry height="40" width="120" x="550" y="760" as="geometry" />
+        </mxCell>
+        <mxCell id="kkMwCocYOkYBSrtVBMVf-40" edge="1" parent="1" source="kkMwCocYOkYBSrtVBMVf-39" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="610" y="1500" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kkMwCocYOkYBSrtVBMVf-52" edge="1" parent="1" source="kkMwCocYOkYBSrtVBMVf-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;startArrow=classic;startFill=1;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="100" y="1510" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kkMwCocYOkYBSrtVBMVf-55" edge="1" parent="1" source="kkMwCocYOkYBSrtVBMVf-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=classic;startFill=1;endArrow=none;endFill=0;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="440" y="1510" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kkMwCocYOkYBSrtVBMVf-41" parent="1" style="rhombus;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" value="Condition" vertex="1">
+          <mxGeometry height="40" width="80" x="160" y="1490" as="geometry" />
+        </mxCell>
+        <mxCell id="kkMwCocYOkYBSrtVBMVf-48" edge="1" parent="1" source="kkMwCocYOkYBSrtVBMVf-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="610" y="1490" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kkMwCocYOkYBSrtVBMVf-50" edge="1" parent="1" source="kkMwCocYOkYBSrtVBMVf-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;startArrow=classic;startFill=1;endArrow=none;endFill=0;" target="kkMwCocYOkYBSrtVBMVf-41" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="375" y="1500" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kkMwCocYOkYBSrtVBMVf-57" edge="1" parent="1" source="kkMwCocYOkYBSrtVBMVf-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="kkMwCocYOkYBSrtVBMVf-56" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kkMwCocYOkYBSrtVBMVf-44" parent="1" style="rhombus;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" value="Condition" vertex="1">
+          <mxGeometry height="40" width="80" x="460" y="1570" as="geometry" />
+        </mxCell>
+        <mxCell id="kkMwCocYOkYBSrtVBMVf-56" parent="1" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;" value="" vertex="1">
+          <mxGeometry height="30" width="30" x="485" y="1650" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
